@@ -37,3 +37,12 @@ poetry env list
 # 특정 env 삭제하기
 poetry env remove <env-name>
 ```
+
+## fastapi 실행하기
+
+```shell
+poetry run uvicorn main:app
+
+```
+
+<http://localhost:8000> 으로 결과 확인할 수 있음.
